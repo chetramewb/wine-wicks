@@ -1,0 +1,19 @@
+{
+  "name": "chetan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/styling/style.scss src/styling/style.css -w"
+  },
+  "author": "Chetan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bootstrap": "^4.4.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
